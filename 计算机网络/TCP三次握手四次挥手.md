@@ -4,8 +4,7 @@
 
 ![img](https://vingdream.cn/static/abd8f3ba67e9864d180798bcf37bab73.jpg) 
 
- ![img](https://vingdream.cn/static/ec383f1352a3c7e76ad5aaa4205c1779.jpg) 
-
+![img](https://vingdream.cn/static/ec383f1352a3c7e76ad5aaa4205c1779.jpg) 
 
 
 ### 为什么建立连接是三次握手，而关闭连接却是四次挥手呢？
