@@ -12,6 +12,14 @@
 
 [Runtime](https://github.com/Vingdy/CS-Note/blob/master/Go/Runtime.md)
 
+# 操作系统
+
+[进程和线程]()
+
+[死锁]()
+
+[指针]()
+
 # 算法
 
 [排序](https://github.com/Vingdy/CS-Note/blob/master/%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F.md)
