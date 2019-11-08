@@ -1,5 +1,7 @@
 # Redis
 
+Redis是NoSQL（泛指非关系型的数据库）
+
 最大连接数：info clients查看
 
 ## 常用数据结构

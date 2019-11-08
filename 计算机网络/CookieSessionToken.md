@@ -18,5 +18,25 @@
 
 项目中session创建的时间点，不同电脑登录同一账号sessionid是同一个吗，sessionid过多怎么办，会出现账号踢出吗，怎么实现？
 
-答：在验证完账号密码登录成功后，不是同一个，用的redis保存对应sessionid的敏感数据，有LRU处理；没有实现踢出，只能自己动手注销或时间到；可以增加一个检测，如果value相同则删除已经保存的sessionid。
+答：在验证完账号密码登录成功后，不是同一个，因为我redis用的是以随机的sessionid作为key，账号作为Value，数据结构用的是字符串；有LRU处理；所以没有实现踢出，只能自己动手注销或时间到；可以增加一个检测，如果value相同则删除已经保存的sessionid，用新的sessionid取代。
+
+## 分布式session机制
+
+#### 粘性session
+
+锁定session到某一个服务器上，例如第一次请求转发到了A，后面的请求都会转发到A
+
+#### session复制
+
+一个服务器的session发生修改，序列化内容并广播到其他服务器，不管其他服务器要不要session
+
+#### session集中
+
+用redis作为存储容器，作为中间键处理，备份可以用多个redis作为主从复制
+
+#### session持久化
+
+把session保存到数据库
+
+
 
