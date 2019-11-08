@@ -16,6 +16,8 @@
 
 [堆栈相关](https://github.com/Vingdy/CS-Note/blob/master/Go/%E5%A0%86%E6%A0%88%E7%9B%B8%E5%85%B3.md)
 
+[死锁出现情况](https://github.com/Vingdy/CS-Note/blob/master/Go/%E6%AD%BB%E9%94%81%E5%87%BA%E7%8E%B0%E6%83%85%E5%86%B5.md)
+
 # 操作系统
 
 [进程和线程](https://github.com/Vingdy/CS-Note/blob/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E8%BF%9B%E7%A8%8B%E5%92%8C%E7%BA%BF%E7%A8%8B.md)
